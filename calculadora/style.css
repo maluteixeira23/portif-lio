@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    color:rgb(10, 22, 32);
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: url(rosa.jpg);
+    background-size: cover; /*Especifica o tamanho das imagens de fundo.*/
+    background-position: center;
+}
+.fundo{
+     height: 100vh; /*Especifica a altura da área de conteúdo*/
+     color: #0d0505;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+}
+.calculadora{
+    position: absolute;
+    background-color: rgba(181, 176, 204, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px; /*definir bordas arredondadas.*/
+    padding: 15px;
+}
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31,31,31); /*define a cor do fundo*/
+    border: none;
+    color: #aaaedc;
+    border-radius: 25px;
+}
+.botao:hover{
+    background-color: black;
+}
+#resultado{
+    background-color: white;
+    width: 207px;
+    height: 30px;
+    margin: 5px; /*define a área de margem nos quatro lados do elemento.*/
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    border-radius: 15px;
+}
